@@ -1,0 +1,74 @@
+/************Estilos css footer***************/
+.pie{
+	background: #914dff;
+	padding: 9px;
+	display: flex;
+	justify-content: space-around;
+
+	.text-by{
+		color: white;
+		margin: 1em;
+	}
+
+	@media all and (max-width: 768px){
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.ir-arriba{
+		display:none;
+		padding:20px;
+		background: #00CB87;
+		font-size:20px;
+		color:#fff;
+		cursor:pointer;
+		position: fixed;
+		bottom:20px;
+		right:20px;
+		border-radius: 50%;
+		font-size: 1.2em;
+	}
+}
+
+.red{
+	display: flex;
+	flex-direction: column;
+
+	.around{
+		text-align: center;
+		color: white;
+	}
+	
+	.social_redes{
+		display: flex;
+
+		.item-icon{
+			padding-left: 1em;
+			flex: 1 1 25%;
+
+			a{
+				font-size: 1.2em;
+			}
+		}
+
+		.button{
+			color: #D6BAD5;
+	  		border:solid 2px #fff;
+	  		border-radius:50%;
+	  		width:50px;
+		    height:50px;
+		    text-align:center;
+		    font-size:20px;
+		    line-height:48px;
+		    padding: .7em;
+		    transition:all .3s ease-in-out;
+		    &:hover{
+	    	    border:solid 2px #fff;
+	    	    color: #52E2B6;
+	    	    background: #fff;
+		    }
+		}
+	}
+
+}
+

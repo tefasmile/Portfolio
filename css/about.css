@@ -1,0 +1,65 @@
+/************Estilos css about***************/
+.about {
+  text-align: center; }
+  .about h2 {
+    color: #a83ffb;
+    text-transform: uppercase;
+    font-size: 2.5em; }
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*viewport mobil*/ }
+  @media all and (min-width: 768px) {
+    .about_me {
+      flex-direction: row;
+      padding: 0 250px 0 250px; } }
+
+.me {
+  border-radius: 50%; }
+
+.text-bio {
+  text-align: justify;
+  padding: 1.5em;
+  color: #757575;
+  font-size: 1.2em;
+  /*viewport desktop*/ }
+  @media all and (min-width: 1000px) {
+    .text-bio .text-bio {
+      text-align: justify;
+      padding: .5em 20em; } }
+
+.social {
+  display: flex;
+  justify-content: center;
+  /*viewport desktop*/ }
+  .social .item-icon {
+    padding-left: 1em;
+    flex: 1 1 25%; }
+    .social .item-icon a {
+      font-size: 1.2em; }
+  .social .icon-facebook {
+    color: #2965ce;
+    border: 2px solid #2965ce;
+    border-radius: 50%;
+    padding: 1em; }
+  .social .icon-twitter {
+    color: #409add;
+    border: 2px solid #409add;
+    border-radius: 50%;
+    padding: 1em; }
+  .social .icon-github {
+    color: #914dff;
+    border: 2px solid #914dff;
+    border-radius: 50%;
+    padding: 1em; }
+  .social .icon-instagram {
+    color: #0D997D;
+    border: 2px solid #0D997D;
+    border-radius: 50%;
+    padding: 1em; }
+  @media all and (min-width: 1000px) {
+    .social .item-icon {
+      flex: 0 4 6%; } }

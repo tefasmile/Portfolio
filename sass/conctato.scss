@@ -1,0 +1,49 @@
+/************Estilos css conctacto***************/
+.conct{
+	background: #a3e5ca;
+	margin-top: 1em;
+	padding: 25px;
+	
+	h2{
+		color: #914dff;
+		text-transform: uppercase;
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	.conctato{
+		display: flex;
+		justify-content: center;
+
+		.flex-form{
+			padding-left: .5em;
+			color: white;
+		}
+
+		.flex-form > *[type="text"]{
+			background: rgba(143, 96, 143, 0.2);
+			color: white;
+			border: 1px solid #914dff;
+			border-bottom: 2px solid white;
+			border-radius: 4px 2px;
+			padding: 10px 28px;
+			margin-top: 1em;
+		}
+
+		.flex-form input[type="submit"]{
+			background: #914dff;
+			border: 2px solid #E9D0F2;
+			border-bottom: 2px solid #760EB1;
+			border-radius: 8px;
+			padding: 10px 27px;
+			margin-top: 1em;
+		}
+
+		@media all and (max-width: 1000px){
+			.flex-form{
+				display: flex;
+				flex-direction: column;
+			}
+		} 
+	}
+}

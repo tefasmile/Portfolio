@@ -1,0 +1,21 @@
+/************Estilos css do***************/
+/**do**/
+.do {
+  background-color: #914dff;
+  margin-top: 2.5em;
+  padding-top: .5em;
+  text-align: center;
+  padding: 1.5em; }
+  .do h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5em; }
+  .do .text-serv {
+    color: white;
+    font-size: 1.2em; }
+
+/**serv**/
+.serv {
+  margin-top: 1.8em; }
+  .serv .image {
+    padding-left: 1.8em; }

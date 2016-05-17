@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+	title webpage - single
+	link(rel="stylesheet", href="css/style.css")
+	link(href="https://fonts.googleapis.com/css?family=Montserrat",rel='stylesheet', type='text/css')
+body
+	header.main-header#home
+		.wrapper
+			img(class="logo", src="images/logo.png")
+			nav.flex-nav
+				a(href="#").toggleNav.icon-menu 
+				ul.list
+					li.item.page-scroll
+						a(href="#home" class="scrollable") Home
+					li.item.page-scroll
+						a(href="#about-me" class="scrollable") About me
+					li.item.page-scroll
+						a(href="#services" class="scrollable") Services
+					li.item.page-scroll
+						a(href="#portfolio" class="scrollable") Portfolio
+					li.item.page-scroll
+						a(href="http://www.stefanyzapata.com") Blog
+					li.item.page-scroll
+						a(href="#conctact" class="scrollable") Conctact
+		.perfil
+			h1 Hello, I’m Tefa Zapata<br> Design and Developer web
+			a(href="#" class="btn_one") Contact me 
+	section.about#about-me
+		h2 About Me
+		.about_me
+			img(class="me", src="images/yo.jpg")
+			p.text-bio
+				|Hola mi nombre es stefany zapata soy desarrolladora web, me encanta trabajar con tecnologias de javascript, html5 y frameworks que me permiten agilizar mi entorno de trabajo, me gusta mucho estudiar
+				| y compartir lo aprendido con las personas, de igual manera apoyar a proyectos open source que beneficien a las personas en su aprendizaje.
+		.social
+			.item-icon
+				a(href="https://www.facebook.com/stefanyzapata92" class="icon-facebook ") 
+			.item-icon
+				a(href="https://twitter.com/tefalife" class="icon-twitter") 
+			.item-icon
+				a(href="https://github.com/tefasmile" class="icon-github")
+			.item-icon
+				a(href="https://twitter.com/tefalife" class="icon-instagram")
+	section.do#services
+		h2 What i do
+		p.text-serv
+			|Ofrezco servicios de diseño y desarrollo para sitios web
+			| y apps.
+		.serv
+			img(class="image", src="images/design.png")
+			img(class="image", src="images/dev.png")
+			img(class="image", src="images/responsive.png")
+	section.work#portfolio
+		h2 This is my work
+		.works
+			-for(var i=0; i<6; i++)
+				.item
+					a(href="http://tefasmile.github.io/Cafe_Theme/")
+						img(class="image", src="images/snoppi.jpg")
+	section.conct#conctact
+			h2 Contact me
+			.conctato
+				form(class="flex-form")
+					input(type="text", class="", placeholder="Name")
+					input(type="text", class="", placeholder="Email")
+					input(type="text", class="msn", placeholder="Mensaje")
+					input(type="submit")
+	footer.pie
+		p.text-by power by - tefa zapata @tefalife
+		.red
+			h3.around Around the web
+			.social_redes
+				.item-icon
+					a(href="https://www.facebook.com/stefanyzapata92" class="icon-facebook button") 
+				.item-icon
+					a(href="https://twitter.com/tefalife" class="icon-twitter button") 
+				.item-icon
+					a(href="https://github.com/tefasmile" class="icon-github button")
+				.item-icon
+					a(href="https://twitter.com/tefalife" class="icon-instagram button")
+		span(class="ir-arriba icon-circle-up")
+	script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
+	script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js")
+	script(type="text/javascript", src="js/scripts.js")
+
+	
