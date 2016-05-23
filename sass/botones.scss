@@ -1,0 +1,16 @@
+/************Estilos css botones***************/
+.buttons{
+	display: flex;
+
+	.btns{
+		display: flex;
+	}
+}
+
+.btn{
+	background-color: #914dff;
+	border-color: purpure;
+	width: 85px;
+	border-radius: 8px;
+	margin: 15px 50px 15px 65px;
+}
